@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+header{
+    height: 100vh;
+    padding: 30px 20px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+nav{
+    color: white;
+    padding: 20px 0;
+}
+
+ul{
+    list-style: none;
+    display : flex;
+    justify-content: space-around;
+}   
+
+nav ul li a{
+    padding : 10px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 50px;
+}
+
